@@ -18,7 +18,7 @@ pip install fast_string_replace
 from fast_string_replace import replace_at_positions
 
 s = "ACGTACGTACGT"
-changes = [(0, "T"), (4, "G"), (8, "C")]
+changes = { 0:"T", 4:"G", 8:"C"}
 new_s = replace_at_positions(s, changes)
 print(new_s)  # Output: TCGTGCGTACGT
 ```
