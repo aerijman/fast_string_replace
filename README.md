@@ -14,14 +14,14 @@ fast_string_replace is a Python module that wraps a C implementation to perform 
 pip install fast_string_replace
 
 ## Example usage
-'''python
+```python
 from fast_string_replace import replace_at_positions
 
 s = "ACGTACGTACGT"
 changes = [(0, "T"), (4, "G"), (8, "C")]
 new_s = replace_at_positions(s, changes)
 print(new_s)  # Output: TCGTGCGTACGT
-'''
+```
 
 ## Performance
 Benchmarks show up to 10x speed improvement over native Python methods for large strings with many replacements.
