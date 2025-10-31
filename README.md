@@ -24,7 +24,9 @@ print(new_s)  # Output: TCGTGCGTACGT
 ```
 
 ## Performance
-Benchmarks show up to 10x speed improvement over native Python methods for large strings with many replacements.
+Benchmarks show up to a consistent and highly significant speed improvement over native Python methods for large strings with many replacements.
+<img src="images/benchmark.png" alt="benchmark" width="600" />
+
 
 ## Build & contribute
 git clone https://github.com/aerijman/fast_string_replace.git
