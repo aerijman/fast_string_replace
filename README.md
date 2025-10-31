@@ -11,7 +11,7 @@ fast_string_replace is a Python module that wraps a C implementation to perform 
 * Easy-to-use Python interface.
 
 ## Installation
-pip install fast_string_replace
+```pip install fast_string_replace```
 
 ## Example usage
 ```python
