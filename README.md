@@ -29,8 +29,8 @@ Benchmarks show up to a consistent and highly significant speed improvement over
 
 
 ## Build & contribute
-git clone https://github.com/aerijman/fast_string_replace.git
-cd fast_string_replace
+git clone https://github.com/aerijman/fast_string_replace.git  
+cd fast_string_replace  
 python setup.py install
 
 
